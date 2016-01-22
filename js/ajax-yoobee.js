@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	
 	// Listen to the form
-	$('#note-form').submit()(function( e ){
+	$('#note-form').submit(function( e ){
 
 		// Prevent form from submitting
 		e.preventDefault();
